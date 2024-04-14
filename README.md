@@ -1,15 +1,13 @@
 DEMO VIDEO: 
 
-All my password in this video is: 123456
-Install OpenSSL
-Open terminal with admnistrator role.
-Generate CA(certificate authority)
+All my password in this video is: 123456. Install OpenSSL. Open terminal with admnistrator role.
+I. Generate CA(certificate authority)
 1. Generate a Private Key
 openssl genrsa -aes256 -out caa-key.pem 4096
 My pass phrase:123456
 2. Create a Certificate Signing Request (CSR):
 openssl req -new -x509 -sha256 -days 365 -key caa-key.pem -out caa.pem
-Generate Certificate
+II.Generate Certificate
 1.Create a RSA key
 openssl genrsa -out certa-key.pem 4096
 2. Create a Certificate Signing Request (CSR)
