@@ -33,11 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include=".">
+      <HintPath>..\Console C</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="EmojiCSharp, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\Console C#\Chat(SSL)\packages\EmojiCSharp.1.0.1\lib\netstandard2.0\EmojiCSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\Console C#\Chat(SSL)\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
